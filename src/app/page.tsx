@@ -12,6 +12,7 @@ import EducationSection from '@/components/EducationSection'
 import VolunteerSection from '@/components/VolunteerSection'
 import BiologySection from '@/components/BiologySection'
 import ContactSection from '@/components/ContactSection'
+import ResumeSection from '@/components/ResumeSection'
 
 export default function Home() {
   const [currentSection, setCurrentSection] = useState('home')
@@ -27,6 +28,7 @@ export default function Home() {
 
   const sections = [
     { id: 'about', title: 'About Me', component: AboutSection },
+    { id: 'resume', title: 'Resume', component: ResumeSection },
     { id: 'experience', title: 'Experience', component: ExperienceSection },
     { id: 'projects', title: 'Projects', component: ProjectsSection },
     { id: 'skills', title: 'Skills', component: SkillsSection },

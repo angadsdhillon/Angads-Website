@@ -131,26 +131,28 @@ export default function HeroSection({ setCurrentSection, sections }: HeroSection
             whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(14, 165, 233, 0.5)" }}
             whileTap={{ scale: 0.95 }}
             className="flex items-center gap-2 px-8 py-4 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-semibold transition-all duration-300"
-            onClick={() => window.open('/resume.pdf', '_blank')}
+            onClick={() => setCurrentSection('resume')}
           >
             <Eye size={20} />
             View Resume
           </motion.button>
           
-          <motion.button
-            whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(217, 70, 239, 0.5)" }}
-            whileTap={{ scale: 0.95 }}
-            className="flex items-center gap-2 px-8 py-4 bg-accent-600 hover:bg-accent-700 text-white rounded-lg font-semibold transition-all duration-300"
-            onClick={() => {
-              const link = document.createElement('a')
-              link.href = '/resume.pdf'
-              link.download = 'Angad_Dhillon_Resume.pdf'
-              link.click()
-            }}
-          >
-            <Download size={20} />
-            Download Resume
-          </motion.button>
+                     <motion.button
+             whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(217, 70, 239, 0.5)" }}
+             whileTap={{ scale: 0.95 }}
+             className="flex items-center gap-2 px-8 py-4 bg-accent-600 hover:bg-accent-700 text-white rounded-lg font-semibold transition-all duration-300"
+             onClick={() => {
+               const link = document.createElement('a')
+               link.href = '/resume.pdf'
+               link.download = 'Angad_Dhillon_Resume.pdf'
+               document.body.appendChild(link)
+               link.click()
+               document.body.removeChild(link)
+             }}
+           >
+             <Download size={20} />
+             Download Resume
+           </motion.button>
         </motion.div>
 
         {/* Navigation Grid */}
@@ -160,7 +162,7 @@ export default function HeroSection({ setCurrentSection, sections }: HeroSection
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 2.5 }}
         >
-          {sections.map((section, index) => (
+          {sections.filter(section => section.id !== 'resume').map((section, index) => (
             <motion.button
               key={section.id}
               whileHover={{ 
