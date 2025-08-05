@@ -1,5 +1,6 @@
 'use client'
 
+import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { ExternalLink, Github, Car, BarChart3, Cpu, Globe, Database, Code, Settings } from 'lucide-react'
@@ -45,7 +46,7 @@ export default function ProjectsSection() {
         'Geographic mapping with Leaflet.js and OpenStreetMap',
         'Integrated GPT-powered AI agent for company insights'
       ],
-      github: 'https://github.com/angadsdhillon/matchit-dashboard',
+      github: 'https://github.com/angadsdhillon/MatchIt-',
       demo: null,
       color: 'from-purple-500 to-pink-500',
       icon: BarChart3,
