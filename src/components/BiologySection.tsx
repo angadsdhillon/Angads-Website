@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { Dna, Microscope, Flask, BookOpen, Calendar, MapPin, Award, Code } from 'lucide-react'
+import { Dna, Microscope, TestTube, BookOpen, Calendar, MapPin, Award, Code } from 'lucide-react'
 
 export default function BiologySection() {
   const [ref, inView] = useInView({
@@ -42,7 +42,7 @@ export default function BiologySection() {
       ],
       technologies: ['PCR', 'Restriction Digestion', 'Ligation', 'Molecular Cloning', 'GFP Expression', 'Plasmid Construction'],
       color: 'from-blue-500 to-cyan-500',
-      icon: Flask,
+      icon: TestTube,
       type: 'Laboratory Project',
     },
   ]
