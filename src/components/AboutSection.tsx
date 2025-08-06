@@ -12,10 +12,10 @@ export default function AboutSection() {
 
   const interests = [
     {
-      icon: Plane,
-      title: 'Aviation Enthusiast',
-      description: 'Passionate about airplanes since childhood. I study the physics and systems behind aircraft, photograph them as a hobby, and have memorized virtually every commercial airplane and airline. I also collect model airplanes.',
-      color: 'from-blue-500 to-cyan-500',
+      icon: Code,
+      title: 'Software Development',
+      description: 'I code for fun and have created many projects listed on my resume and GitHub. I enjoy building innovative solutions and learning new technologies to expand my programming capabilities.',
+      color: 'from-green-500 to-emerald-500',
       delay: 0.1,
     },
     {
@@ -26,19 +26,19 @@ export default function AboutSection() {
       delay: 0.2,
     },
     {
-      icon: Code,
-      title: 'Software Development',
-      description: 'I code for fun and have created many projects listed on my resume and GitHub. I enjoy building innovative solutions and learning new technologies to expand my programming capabilities.',
-      color: 'from-green-500 to-emerald-500',
+      icon: Plane,
+      title: 'Aviation Enthusiast',
+      description: 'Passionate about airplanes since childhood. I study the physics and systems behind aircraft, photograph them as a hobby, and have memorized virtually every commercial airplane and airline. I also collect model airplanes.',
+      color: 'from-blue-500 to-cyan-500',
       delay: 0.3,
     },
   ]
 
   const stats = [
-    { label: 'Years of Aviation Interest', value: '15+', icon: Plane },
-    { label: 'PCs Built', value: '20+', icon: Cpu },
-    { label: 'Projects Created', value: '25+', icon: Code },
-    { label: 'Volunteer Hours', value: '500+', icon: Heart },
+    { label: 'Projects Created', value: '10+', icon: Code },
+    { label: 'PCs Built', value: '10+', icon: Cpu },
+    { label: 'Volunteer Hours', value: '2500+', icon: Heart },
+    { label: 'Years of Aviation Interest', value: '21+', icon: Plane},
   ]
 
   return (
