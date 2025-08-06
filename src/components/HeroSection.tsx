@@ -90,24 +90,24 @@ export default function HeroSection({ setCurrentSection, sections }: HeroSection
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          <motion.h1 
-            className="text-6xl md:text-8xl font-bold mb-6 gradient-text"
-            animate={{ 
-              backgroundPosition: ['0% 50%', '100% 50%', '0% 50%'],
-            }}
-            transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-          >
-            Angad Dhillon
-          </motion.h1>
-          
-          <motion.p 
-            className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 1 }}
-          >
-            Software Engineer & Computer Science Student at UBC
-          </motion.p>
+                                           <motion.h1 
+              className="text-6xl md:text-8xl font-bold mb-10 gradient-text leading-tight pb-4"
+              animate={{ 
+                backgroundPosition: ['0% 50%', '100% 50%', '0% 50%'],
+              }}
+              transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+            >
+              Angad Dhillon
+            </motion.h1>
+           
+           <motion.p 
+             className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto"
+             initial={{ opacity: 0 }}
+             animate={{ opacity: 1 }}
+             transition={{ duration: 1, delay: 1 }}
+           >
+             Software Engineer & Computer Science Student at UBC
+           </motion.p>
           
           <motion.p 
             className="text-lg text-gray-400 mb-12 max-w-3xl mx-auto"
