@@ -52,6 +52,28 @@ export default function ProjectsSection() {
       icon: BarChart3,
       featured: true,
     },
+    {
+      title: 'Personal Portfolio Website',
+      description: 'A modern, interactive personal portfolio website showcasing my skills, projects, and experiences with stunning animations and immersive design. See how this website is made!',
+      technologies: ['Next.js 14', 'React 18', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'Lucide React', 'React Intersection Observer'],
+      features: [
+        'Built with Next.js 14 App Router for optimal performance and SEO',
+        'Interactive dark mode design with glass morphism effects',
+        'Smooth scroll animations and hover effects using Framer Motion',
+        'Responsive design that works perfectly on all devices',
+        'Dynamic PC build showcase with actual photos and hover details',
+        'Professional sections for About, Experience, Projects, Skills, and Education',
+        'In-app resume viewer with downloadable PDF functionality',
+        'Custom gradient text effects and animated background elements',
+        'Mouse-following effects and floating icon animations',
+        'Optimized for recruiters with clear navigation and professional presentation'
+      ],
+      github: 'https://github.com/angadsdhillon/Angads-Website',
+      demo: null,
+      color: 'from-green-500 to-emerald-500',
+      icon: Globe,
+      featured: true,
+    },
   ]
 
   return (
