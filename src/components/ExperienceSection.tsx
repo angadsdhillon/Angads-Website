@@ -12,6 +12,21 @@ export default function ExperienceSection() {
 
   const experiences = [
     {
+      company: 'Maximizer Technologies Inc.',
+      position: 'Software Engineer',
+      location: 'Vancouver, BC',
+      period: 'Sep 2025 – Dec 2025',
+      description: 'Contributed to the development of Maximizer\'s AI-powered CRM Outlook Addon and frontend integrations, improving usability, performance, and data synchronization for enterprise customers.',
+      achievements: [
+        'Developed and optimized new features for the Maximizer AI CRM for Outlook using TypeScript and Angular, improving addon responsiveness and end-user experience for over 1M global users.',
+        'Built and enhanced API-driven integrations to connect CRM workflows with Outlook, enabling seamless data synchronization, reducing errors, and improving overall scalability of client-facing solutions.',
+        'Worked closely with the Integration team in an Agile environment, participating in sprint planning, code reviews, and testing to deliver reliable, maintainable, and high-quality releases.'
+      ],
+      technologies: ['TypeScript', 'Angular', 'REST APIs', 'Agile / Scrum'],
+      color: 'from-green-500 to-emerald-500',
+      icon: Code,
+    },
+    {
       company: 'PIT Solutions',
       position: 'Software Engineer',
       location: 'Seattle, WA',
