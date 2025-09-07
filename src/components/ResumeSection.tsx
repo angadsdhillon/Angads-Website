@@ -22,7 +22,7 @@ export default function ResumeSection() {
     degree: 'Bachelor of Science, Combined Major in Computer Science and Biology',
     institution: 'University of British Columbia',
     location: 'Vancouver, BC',
-    period: '2023 - 2027',
+    period: '2021 - Present',
     gpa: '3.8/4.0',
     courses: [
       'Data Structures and Algorithms',
