@@ -14,7 +14,7 @@ export default function EducationSection() {
     institution: 'University of British Columbia',
     degree: 'Bachelor of Science, Combined Major in Computer Science and Biology',
     location: 'Vancouver, BC',
-    period: '2023 - 2027',
+    period: '2021 - Present',
     gpa: '3.8/4.0',
     description: 'Pursuing a unique interdisciplinary degree that combines computational thinking with biological sciences, preparing me for careers at the intersection of technology and life sciences.',
   }
