@@ -15,7 +15,7 @@ export default function ExperienceSection() {
       company: 'Maximizer Technologies Inc.',
       position: 'Software Engineer',
       location: 'Vancouver, BC',
-      period: 'Sep 2025 – Dec 2025',
+      period: 'Sept 2025 – Present',
       description: 'Contributed to the development of Maximizer\'s AI-powered CRM Outlook Addon and frontend integrations, improving usability, performance, and data synchronization for enterprise customers.',
       achievements: [
         'Developed and optimized new features for the Maximizer AI CRM for Outlook using TypeScript and Angular, improving addon responsiveness and end-user experience for over 1M global users.',
@@ -30,7 +30,7 @@ export default function ExperienceSection() {
       company: 'PIT Solutions',
       position: 'Software Engineer',
       location: 'Seattle, WA',
-      period: 'May 2025 – Present',
+      period: 'May 2025 – August 2025',
       description: 'Developing client-side sales intelligence tools and interactive dashboards for lead generation and B2B client analysis.',
       achievements: [
         'Developed client-side sales intelligence tool using Next.js 14 (React, TypeScript), Tailwind CSS, Recharts, and Leaflet to merge and analyze large contact and company datasets, streamlining lead generation enabling sales teams to identify qualified leads 3x faster.',
