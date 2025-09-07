@@ -40,9 +40,20 @@ export default function ResumeSection() {
   const experience = [
     {
       title: 'Software Engineer',
+      company: 'Maximizer Technologies Inc.',
+      location: 'Vancouver, BC',
+      period: 'Sept 2025 - Present',
+      achievements: [
+        'Developed and optimized new features for the Maximizer AI CRM for Outlook using TypeScript and Angular, improving addon responsiveness and end-user experience for over 1M global users.',
+        'Built and enhanced API-driven integrations to connect CRM workflows with Outlook, enabling seamless data synchronization, reducing errors, and improving overall scalability of client-facing solutions.',
+        'Worked closely with the Integration team in an Agile environment, participating in sprint planning, code reviews, and testing to deliver reliable, maintainable, and high-quality releases.'
+      ]
+    },
+    {
+      title: 'Software Engineer',
       company: 'PIT Solutions',
       location: 'Seattle, WA',
-      period: 'May 2025 - Present',
+      period: 'May 2025 - August 2025',
       achievements: [
         'Developed client-side sales intelligence tool using Next.js 14 (React, TypeScript), Tailwind CSS, Recharts, and Leaflet to merge and analyze large contact and company datasets, streamlining lead generation enabling sales teams to identify qualified leads 3x faster.',
         'Engineered interactive dashboards and geo-visual reports using both Power BI and custom visual components, highlighting high potential B2B clients by region, company size, and decision-maker roles for targeted outreach.',
